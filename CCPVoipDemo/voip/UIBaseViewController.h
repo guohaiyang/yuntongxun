@@ -18,7 +18,7 @@
 #import "CommonTools.h"
 #import "GetSearchDataObj.h"
 #import <AddressBookUI/AddressBookUI.h>
-#define theAppDelegate ((AppDelegate *)[[UIApplication sharedApplication] delegate])
+#define theAppDelegate ((CCPAppDelegate *)[CCPAppDelegate sharedInstance])
 
 typedef enum
 {

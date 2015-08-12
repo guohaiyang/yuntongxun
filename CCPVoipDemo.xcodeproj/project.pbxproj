@@ -955,6 +955,7 @@
 		82F7F98816F2F5950060E9DB /* Statement.m in Sources */ = {isa = PBXBuildFile; fileRef = 82F7F97E16F2F5950060E9DB /* Statement.m */; };
 		82F7F99A16F2F8E40060E9DB /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05F43C1516A93EE600F6D053 /* AudioToolbox.framework */; };
 		82FF39B418D13EDB002531BF /* CustomPersonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82FF39B318D13EDB002531BF /* CustomPersonViewController.m */; };
+		92F55C8A1B7B235C00583413 /* CCPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 92F55C891B7B235C00583413 /* CCPAppDelegate.m */; };
 		BEBC9A3C1ACE957100ADEDAB /* libccpapisdk.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BEBC9A3B1ACE957100ADEDAB /* libccpapisdk.a */; };
 		F113E878179640E4007A26FF /* GroupListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F113E877179640E4007A26FF /* GroupListViewController.m */; };
 		F13AF1CC176F06DC004B1804 /* MWCaptionView.m in Sources */ = {isa = PBXBuildFile; fileRef = F13AF1B9176F06DC004B1804 /* MWCaptionView.m */; };
@@ -2033,6 +2034,8 @@
 		82F7F97E16F2F5950060E9DB /* Statement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Statement.m; path = common/Statement.m; sourceTree = "<group>"; };
 		82FF39B218D13EDB002531BF /* CustomPersonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomPersonViewController.h; sourceTree = "<group>"; };
 		82FF39B318D13EDB002531BF /* CustomPersonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomPersonViewController.m; sourceTree = "<group>"; };
+		92F55C881B7B235C00583413 /* CCPAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCPAppDelegate.h; sourceTree = "<group>"; };
+		92F55C891B7B235C00583413 /* CCPAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCPAppDelegate.m; sourceTree = "<group>"; };
 		BEBC9A3B1ACE957100ADEDAB /* libccpapisdk.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libccpapisdk.a; sourceTree = "<group>"; };
 		F113E876179640E4007A26FF /* GroupListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GroupListViewController.h; sourceTree = "<group>"; };
 		F113E877179640E4007A26FF /* GroupListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GroupListViewController.m; sourceTree = "<group>"; };
@@ -2277,6 +2280,8 @@
 				05F43BA016A92CAA00F6D053 /* ViewController.m */,
 				82928E791726A6660046093B /* CallViewController.h */,
 				82928E7A1726A6690046093B /* CallViewController.m */,
+				92F55C881B7B235C00583413 /* CCPAppDelegate.h */,
+				92F55C891B7B235C00583413 /* CCPAppDelegate.m */,
 				0507B31C19862092007A49C0 /* ccpsdk */,
 				05F43BB516A9328100F6D053 /* voip */,
 				05F43BC316A9328A00F6D053 /* resource */,
@@ -4427,6 +4432,7 @@
 				8280F22918CD8DFC009BF063 /* CustomLabel.m in Sources */,
 				8280F22818CD8DFC009BF063 /* AddressBookFuns.m in Sources */,
 				05F43BC216A9328100F6D053 /* VoipIncomingViewController.m in Sources */,
+				92F55C8A1B7B235C00583413 /* CCPAppDelegate.m in Sources */,
 				05F43C1A16A9419D00F6D053 /* RegisterViewController.m in Sources */,
 				05F43C1F16A941E700F6D053 /* VoIPCallViewController.m in Sources */,
 				05A357E716F0222E001AA2CA /* DemoListViewController.m in Sources */,

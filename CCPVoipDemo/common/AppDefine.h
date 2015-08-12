@@ -12,7 +12,7 @@
  */
 
 //判断是否是iPhone5
-#import "AppDelegate.h"
+#import "CCPAppDelegate.h"
 #define IPHONE5 ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(640, 1136), [[UIScreen mainScreen] currentMode].size) : NO)
 
 #define iOS7 ([[[UIDevice currentDevice] systemVersion] floatValue] >= 7)
