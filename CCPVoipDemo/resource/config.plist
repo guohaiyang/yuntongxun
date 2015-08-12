@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>main_account</key>
+	<string>请填写主账号</string>
+	<key>main_token</key>
+	<string>请填写主账号token</string>
+	<key>app_id</key>
+	<string>请填写应用ID</string>
+	<key>serverip</key>
+	<string>sandboxapp.cloopen.com</string>
+	<key>serverport</key>
+	<string>8883</string>
+	<key>subaccounts_info</key>
+	<array>
+		<dict>
+			<key>sub_account</key>
+			<string>请填写子账号</string>
+			<key>sub_token</key>
+			<string>请填写子账号token</string>
+			<key>voip_account</key>
+			<string>请填写VoIP账号</string>
+			<key>voip_password</key>
+			<string>请填写VoIP密码</string>
+		</dict>
+		<dict>
+			<key>sub_account</key>
+			<string>请填写子账号</string>
+			<key>sub_token</key>
+			<string>请填写子账号token</string>
+			<key>voip_account</key>
+			<string>请填写VoIP账号</string>
+			<key>voip_password</key>
+			<string>请填写VoIP密码</string>
+		</dict>
+	</array>
+</dict>
+</plist>
