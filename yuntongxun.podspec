@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   s.name         = "yuntongxun"
   s.version      = "0.0.1"
-  s.summary      = "A short description of yuntongxun."
+  s.summary      = "容联云通讯SDK"
 
   s.description  = <<-DESC
                    A longer description of yuntongxun in Markdown format.
@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
                    * Finally, don't worry about the indent, CocoaPods strips it!
                    DESC
 
-  s.homepage     = "http://EXAMPLE/yuntongxun"
+  s.homepage     = "https://github.com/guohaiyang"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -23,7 +23,7 @@ Pod::Spec.new do |s|
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
-  s.license      = "MIT (example)"
+  s.license      = "MIT"
   # s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
 
 
@@ -48,7 +48,7 @@ Pod::Spec.new do |s|
   #  the deployment target. You can optionally include the target after the platform.
   #
 
-  # s.platform     = :ios
+  s.platform     = :ios
   # s.platform     = :ios, "5.0"
 
   #  When using multiple platforms
@@ -91,7 +91,7 @@ Pod::Spec.new do |s|
   s.frameworks = "CoreTelephony", "MediaPlayer", "CFNetwork", "SystemConfiguration", "MobileCoreServices", "AudioToolbox", "CoreGraphics", "AVFoundation", "CoreMedia"
 
   # s.library   = "iconv"
-  s.libraries = "libicucore", "libsqlite3", "libz"
+  s.libraries = 'icucore', 'sqlite3', 'z', 'xml2'
 
 
   # ――― Project Settings ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
