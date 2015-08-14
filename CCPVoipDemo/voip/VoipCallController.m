@@ -258,6 +258,7 @@ extern BOOL globalisVoipView;
     }
     else
     {
+        NSLog(@"%@,%@",[ModelEngineVoip getInstance].voipPhone,self.callerNo);
         [[ModelEngineVoip getInstance] callback:[ModelEngineVoip getInstance].voipPhone withTOCall:self.callerNo];
         self.callID = @"callback";
     }

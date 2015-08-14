@@ -29,8 +29,9 @@
     self.window = [[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]] autorelease];
     
     //首先启动注册页面
-    ModelSelectViewController *registerViewController = [[[ModelSelectViewController alloc] init] autorelease];
-    UINavigationController *navigationBar = [[UINavigationController alloc] initWithRootViewController:registerViewController];
+    //ModelSelectViewController *registerViewController = [[[ModelSelectViewController alloc] init] autorelease];
+    //UINavigationController *navigationBar = [[UINavigationController alloc] initWithRootViewController:registerViewController];
+    UINavigationController *navigationBar = [[UINavigationController alloc] init];
     CGFloat navBarHeight = 55.0f;
     CGRect frame = CGRectMake(0.0f, 20.0f, 320.0f, navBarHeight);
     [navigationBar.navigationBar setFrame:frame];

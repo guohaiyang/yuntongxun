@@ -955,8 +955,8 @@
 		82F7F98816F2F5950060E9DB /* Statement.m in Sources */ = {isa = PBXBuildFile; fileRef = 82F7F97E16F2F5950060E9DB /* Statement.m */; };
 		82F7F99A16F2F8E40060E9DB /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05F43C1516A93EE600F6D053 /* AudioToolbox.framework */; };
 		82FF39B418D13EDB002531BF /* CustomPersonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82FF39B318D13EDB002531BF /* CustomPersonViewController.m */; };
-		92F55C8A1B7B235C00583413 /* CCPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 92F55C891B7B235C00583413 /* CCPAppDelegate.m */; };
-		BEBC9A3C1ACE957100ADEDAB /* libccpapisdk.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BEBC9A3B1ACE957100ADEDAB /* libccpapisdk.a */; };
+		92F55CEE1B7C6CA700583413 /* CCPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 92F55CED1B7C6CA700583413 /* CCPAppDelegate.m */; };
+		92F55CF01B7C6DA600583413 /* libccpapisdk.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 92F55CEF1B7C6DA600583413 /* libccpapisdk.a */; };
 		F113E878179640E4007A26FF /* GroupListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F113E877179640E4007A26FF /* GroupListViewController.m */; };
 		F13AF1CC176F06DC004B1804 /* MWCaptionView.m in Sources */ = {isa = PBXBuildFile; fileRef = F13AF1B9176F06DC004B1804 /* MWCaptionView.m */; };
 		F13AF1CD176F06DC004B1804 /* MWPhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = F13AF1BB176F06DC004B1804 /* MWPhoto.m */; };
@@ -2034,9 +2034,9 @@
 		82F7F97E16F2F5950060E9DB /* Statement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Statement.m; path = common/Statement.m; sourceTree = "<group>"; };
 		82FF39B218D13EDB002531BF /* CustomPersonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomPersonViewController.h; sourceTree = "<group>"; };
 		82FF39B318D13EDB002531BF /* CustomPersonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomPersonViewController.m; sourceTree = "<group>"; };
-		92F55C881B7B235C00583413 /* CCPAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCPAppDelegate.h; sourceTree = "<group>"; };
-		92F55C891B7B235C00583413 /* CCPAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCPAppDelegate.m; sourceTree = "<group>"; };
-		BEBC9A3B1ACE957100ADEDAB /* libccpapisdk.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libccpapisdk.a; sourceTree = "<group>"; };
+		92F55CEC1B7C6CA700583413 /* CCPAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCPAppDelegate.h; sourceTree = "<group>"; };
+		92F55CED1B7C6CA700583413 /* CCPAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCPAppDelegate.m; sourceTree = "<group>"; };
+		92F55CEF1B7C6DA600583413 /* libccpapisdk.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libccpapisdk.a; sourceTree = "<group>"; };
 		F113E876179640E4007A26FF /* GroupListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GroupListViewController.h; sourceTree = "<group>"; };
 		F113E877179640E4007A26FF /* GroupListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GroupListViewController.m; sourceTree = "<group>"; };
 		F13AF1B8176F06DC004B1804 /* MWCaptionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MWCaptionView.h; sourceTree = "<group>"; };
@@ -2088,7 +2088,7 @@
 				05F43C0E16A93EC400F6D053 /* MobileCoreServices.framework in Frameworks */,
 				05F43C0C16A93EBD00F6D053 /* libxml2.dylib in Frameworks */,
 				05F43C0A16A93EB100F6D053 /* libz.dylib in Frameworks */,
-				BEBC9A3C1ACE957100ADEDAB /* libccpapisdk.a in Frameworks */,
+				92F55CF01B7C6DA600583413 /* libccpapisdk.a in Frameworks */,
 				05F43B8816A92CAA00F6D053 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -2099,7 +2099,7 @@
 		0507B31C19862092007A49C0 /* ccpsdk */ = {
 			isa = PBXGroup;
 			children = (
-				BEBC9A3B1ACE957100ADEDAB /* libccpapisdk.a */,
+				92F55CEF1B7C6DA600583413 /* libccpapisdk.a */,
 				0507B31D19862092007A49C0 /* CCPCallEvent.h */,
 				0507B31E19862092007A49C0 /* CCPCallService.h */,
 				0507B31F19862092007A49C0 /* CCPSDKBundle.bundle */,
@@ -2255,6 +2255,7 @@
 		05F43B8D16A92CAA00F6D053 /* CCPVoipDemo */ = {
 			isa = PBXGroup;
 			children = (
+				92F55CEB1B7C6CA700583413 /* CCPVoip */,
 				05E450C01964FB5D00562DBE /* MultiVideoConf */,
 				823F9B82193ECCA1003B0F52 /* chatroom */,
 				82631C2618C4660C00BE5A0A /* contacts */,
@@ -2280,8 +2281,6 @@
 				05F43BA016A92CAA00F6D053 /* ViewController.m */,
 				82928E791726A6660046093B /* CallViewController.h */,
 				82928E7A1726A6690046093B /* CallViewController.m */,
-				92F55C881B7B235C00583413 /* CCPAppDelegate.h */,
-				92F55C891B7B235C00583413 /* CCPAppDelegate.m */,
 				0507B31C19862092007A49C0 /* ccpsdk */,
 				05F43BB516A9328100F6D053 /* voip */,
 				05F43BC316A9328A00F6D053 /* resource */,
@@ -3462,6 +3461,15 @@
 			path = newVerIcon;
 			sourceTree = "<group>";
 		};
+		92F55CEB1B7C6CA700583413 /* CCPVoip */ = {
+			isa = PBXGroup;
+			children = (
+				92F55CEC1B7C6CA700583413 /* CCPAppDelegate.h */,
+				92F55CED1B7C6CA700583413 /* CCPAppDelegate.m */,
+			);
+			path = CCPVoip;
+			sourceTree = "<group>";
+		};
 		F13AF1B6176F06DC004B1804 /* ShowImage */ = {
 			isa = PBXGroup;
 			children = (
@@ -4432,7 +4440,6 @@
 				8280F22918CD8DFC009BF063 /* CustomLabel.m in Sources */,
 				8280F22818CD8DFC009BF063 /* AddressBookFuns.m in Sources */,
 				05F43BC216A9328100F6D053 /* VoipIncomingViewController.m in Sources */,
-				92F55C8A1B7B235C00583413 /* CCPAppDelegate.m in Sources */,
 				05F43C1A16A9419D00F6D053 /* RegisterViewController.m in Sources */,
 				05F43C1F16A941E700F6D053 /* VoIPCallViewController.m in Sources */,
 				05A357E716F0222E001AA2CA /* DemoListViewController.m in Sources */,
@@ -4501,6 +4508,7 @@
 				0597444A179E747300070E93 /* MMGridViewCell.m in Sources */,
 				05E450BF1964FB4900562DBE /* VideoView.m in Sources */,
 				823F9B8B193ECCA1003B0F52 /* ChatRoomViewController.m in Sources */,
+				92F55CEE1B7C6CA700583413 /* CCPAppDelegate.m in Sources */,
 				0597444D179E74AF00070E93 /* IMMemberGridViewCell.m in Sources */,
 				82631CFB18C4686400BE5A0A /* SearchDataObj.m in Sources */,
 				054ECAD6179F6C1800D64B2B /* IMGroupNotifyViewController.m in Sources */,
@@ -4617,8 +4625,8 @@
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD)";
 				CLANG_CXX_LIBRARY = "libstdc++";
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Ning Yang (64SQ4JA24C)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Ning Yang (64SQ4JA24C)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CCPVoipDemo/CCPVoipDemo-Prefix.pch";
 				GCC_VERSION = "";
@@ -4636,8 +4644,8 @@
 				);
 				OTHER_OSACOMPILEFLAGS = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "a5217242-e313-44d7-af49-8bbfc61794a5";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "a5217242-e313-44d7-af49-8bbfc61794a5";
+				PROVISIONING_PROFILE = "792d06fb-cafe-4178-9c25-3a6e3b7d526f";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "792d06fb-cafe-4178-9c25-3a6e3b7d526f";
 				TARGETED_DEVICE_FAMILY = 1;
 				VALID_ARCHS = "armv7 arm64";
 				WRAPPER_EXTENSION = app;
@@ -4649,8 +4657,8 @@
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD)";
 				CLANG_CXX_LIBRARY = "libstdc++";
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Ning Yang (64SQ4JA24C)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Ning Yang (64SQ4JA24C)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CCPVoipDemo/CCPVoipDemo-Prefix.pch";
 				GCC_VERSION = "";
@@ -4668,8 +4676,8 @@
 				);
 				OTHER_OSACOMPILEFLAGS = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "a5217242-e313-44d7-af49-8bbfc61794a5";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "a5217242-e313-44d7-af49-8bbfc61794a5";
+				PROVISIONING_PROFILE = "792d06fb-cafe-4178-9c25-3a6e3b7d526f";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "792d06fb-cafe-4178-9c25-3a6e3b7d526f";
 				TARGETED_DEVICE_FAMILY = 1;
 				VALID_ARCHS = "armv7 arm64";
 				WRAPPER_EXTENSION = app;
